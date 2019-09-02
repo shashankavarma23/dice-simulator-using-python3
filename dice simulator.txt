@@ -1,0 +1,13 @@
+import time
+import random
+print("do you want to roll the dice:(y/n):")
+roll=input()
+while(roll == "y"):
+    d1=random.randint(1,6)
+    d2=random.randint(1,6)
+    print("dice1= "+str(d1))
+    print("dice2= "+str(d2))
+    time.sleep(1)
+    print("do you want to roll the dice:(y/n)")
+    roll=input()
+print("---------------------")
